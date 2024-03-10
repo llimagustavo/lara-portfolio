@@ -19,12 +19,10 @@ button {
     border-right: none;
     cursor: pointer;
     margin-left: 14px;
-    
 }
 
 button:hover {
     background-color: var(--cor-rosa-escuro);
     scale: 1.1;
     color: var(--cor-branca);
-
 }

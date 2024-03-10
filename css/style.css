@@ -9,8 +9,9 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background: linear-gradient(to bottom, var(--cor-rosa), var(--cor-rosa-escuro));
-    
+    background-image: url(/assets/images/fundo.png);
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 
 h1 {
@@ -19,7 +20,7 @@ h1 {
     font-family: 'Lemon Days';
     font-size: 111px;
     color: var(--cor-amarela);
-    margin: 50px;
+    margin: 40px;
 }
 
 .projetos {
@@ -27,15 +28,7 @@ h1 {
     color: var(--cor-branca);
     font-size: 40px;
     margin-bottom: -6px;
-    margin-top: 85px;
-}
-
-h3 {
-    margin-top: 6px;
-    font-family: 'DM Sans';
-    font-size: 18px;
-    font-weight: 400;
-    color: var(--cor-branca);
+    margin-top: 100px;
 }
 
 .coluna {
@@ -58,14 +51,22 @@ h3 {
     cursor: pointer;
 }
 
-h4 {
+h3 {
+    margin-top: 6px;
+    font-family: 'DM Sans';
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--cor-branca);
+}
+
+.titulo-do-projeto {
     font-family: 'DM Sans';
     font-size: 26px;
     color: var(--cor-branca);
     margin-bottom: -9px;
 }
 
-p {
+.descricao {
     font-family: 'DM Sans';
     font-size: 17px;
     color: var(--cor-branca);
