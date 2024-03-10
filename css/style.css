@@ -22,37 +22,6 @@ h1 {
     margin: 50px;
 }
 
-.row {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    background-color: transparent;
-}
-
-button {
-    background-color: transparent;
-    color: var(--cor-amarela);
-    font-family: 'DM Sans Bold';
-    font-size: 21px;
-    width: 280px;
-    height: 50px;
-    border-bottom: 1px solid var(--cor-branca); 
-    border-top: 1px solid var(--cor-branca);
-    border-left: none;
-    border-right: none;
-    cursor: pointer;
-    margin-left: 14px;
-    
-}
-
-button:hover {
-    background-color: var(--cor-rosa-escuro);
-    scale: 1.1;
-    color: var(--cor-branca);
-
-}
-
 .projetos {
     font-family: 'Lemon Days';
     color: var(--cor-branca);
@@ -78,13 +47,13 @@ h3 {
     padding-right: 520px;
 }
 
-img {
+.img-do-projeto {
     width: 901px;
     margin-bottom: -17px;
     border-radius: 10px;
 }
 
-img:hover {
+.img-do-projeto:hover {
     scale: 1.015;
     cursor: pointer;
 }
@@ -101,3 +70,4 @@ p {
     font-size: 17px;
     color: var(--cor-branca);
 }
+
