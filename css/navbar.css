@@ -6,7 +6,7 @@
     background-color: transparent;
 }
 
-button {
+.buttonbar {
     background-color: transparent;
     color: var(--cor-amarela);
     font-family: 'DM Sans Bold';
@@ -21,7 +21,7 @@ button {
     margin-left: 14px;
 }
 
-button:hover {
+.buttonbar:hover {
     background-color: var(--cor-rosa-escuro);
     scale: 1.1;
     color: var(--cor-branca);
