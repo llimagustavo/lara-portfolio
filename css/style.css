@@ -47,7 +47,6 @@ h1 {
 }
 
 .img-do-projeto:hover {
-    scale: 1.015;
     cursor: pointer;
 }
 
@@ -63,7 +62,7 @@ h3 {
     font-family: 'DM Sans';
     font-size: 26px;
     color: var(--cor-branca);
-    margin-bottom: -9px;
+    margin: 20px;
 }
 
 .descricao {
