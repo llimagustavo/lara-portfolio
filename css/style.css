@@ -18,7 +18,8 @@ h1 {
     display: flex;
     justify-content: center;
     font-family: 'Lemon Days';
-    font-size: 111px;
+    /* font-size: 111px; */
+    font-size: clamp(3em, 1rem + 10vw, 7rem); 
     color: var(--cor-amarela);
     margin: 40px;
 }
