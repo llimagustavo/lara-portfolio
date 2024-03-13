@@ -53,9 +53,9 @@ h1 {
                             /* Design Gráfico */
 h3 {                                            
     margin-top: 6px;
-    font-family: 'DM Sans';
-    /* font-size: 18px; */
-    font-weight: 400;
+    margin-bottom: 20px;
+    font-family: 'DM Sans', sans-serif; 
+    font-size: 18px;
     color: var(--cor-branca);
 }
 
