@@ -24,7 +24,7 @@ h1 {
     margin: 40px;
 }
 
-.projetos {
+.titulo-branco {
     font-family: 'Lemon Days';
     color: var(--cor-branca);
     font-size: 40px;
@@ -43,36 +43,131 @@ h1 {
 }
 
 .carousel.slide {
-    max-width: 1200px;
-    max-height: 505px;
+    max-width: 1000px;
+    max-height: 800px;
+    object-fit: cover;
+
 }
 
-img {
-    max-width: 1200px;
-    max-height: 505px;
-    margin-bottom: -17px;
-    cursor: pointer;
-}
 
-h3 {
+                            /* Design Gráfico */
+h3 {                                            
     margin-top: 6px;
     font-family: 'DM Sans';
-    font-size: 18px;
+    /* font-size: 18px; */
     font-weight: 400;
     color: var(--cor-branca);
 }
 
-.titulo-do-projeto {
+#titulo-do-projeto {
     font-family: 'DM Sans';
     font-size: 26px;
+    font-size: clamp(0,1rem, 2rem, 3rem);
     color: var(--cor-branca);
-    margin: 0;
-    margin-top: 25px;
+    
 }
 
-.descricao {
+#descricao {
     font-family: 'DM Sans';
-    font-size: 17px;
+    /* font-size: 17px; */
+    font-size: clamp(0,1rem, 1rem, 3rem);
     color: var(--cor-branca);
 }
 
+.carousel-control-prev-icon {
+    background-image: url(/assets/icons/prev.png);
+    max-width: 25px;
+    max-height: 45px;
+}
+
+.carousel-control-next-icon {
+    background-image: url(/assets/icons/next.png);
+    max-width: 25px;
+    max-height: 45px;
+}
+
+#indicadores .active {
+    background-color: #FFC700;
+}
+
+.carousel-caption {
+    background: linear-gradient(to bottom, #000000, #2b1528);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.carousel-inner {
+    border-radius: 10px;
+    min-height: 700px;
+}
+
+/* -------------------- PÁGINA SOBRE ------------------- */ 
+
+.perfil {
+    border-radius: 50%;
+    box-shadow: 1px 1px 30px;
+    height: 300px;
+    width: 310px;
+    object-fit: cover;
+    margin-top: 110px;
+    margin-right: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    /* max-height: 250px; */
+    max-width: 620px;
+    margin-top: 20px;
+    
+
+}
+
+.titulo-pagina-sobre {
+    font-family: 'Lemon Days';
+    color: var(--cor-branca);
+    font-size: 66px;
+    margin-bottom: -6px;
+    margin-top: 100px;
+}
+
+.texto-sobre-lara {
+    font-family: 'DM Sans Regular', sans-serif;
+    line-height: 1.2;
+    padding: 20px 40px;
+    font-size: 20px;
+    color: #8F397E;
+    margin: 0;
+    text-align: justify;
+}
+        
+
+
+main {
+    /* max-width: 900px; */
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.estrela {
+    max-width: 30px;
+    margin-right: 10px;
+}
+
+.container-hab {
+    max-width: 600px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#topicos {
+    color: var(--cor-branca);
+    font-family: 'DM Sans Regular', sans-serif;
+    font-size: 25px;
+}

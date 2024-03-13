@@ -1,4 +1,4 @@
-.row {
+.navbar {
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -9,20 +9,15 @@
 .buttonbar {
     background-color: transparent;
     color: var(--cor-amarela);
-    font-family: 'DM Sans Bold';
-    font-size: 21px;
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+    font-size: 18px;
     width: 280px;
-    height: 50px;
-    border-bottom: 1px solid var(--cor-branca); 
-    border-top: 1px solid var(--cor-branca);
-    border-left: none;
-    border-right: none;
+    height: 40px;
+    border: none;
     cursor: pointer;
-    margin-left: 14px;
+    margin-right: 5px;
 }
 
 .buttonbar:hover {
-    background-color: var(--cor-rosa-escuro);
-    scale: 1.1;
     color: var(--cor-branca);
 }
