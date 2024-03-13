@@ -5,5 +5,5 @@ O projeto consiste em uma página web que exibe informações sobre os projetos 
 
 - **HTML Semântico**: Utilização de tags semânticas HTML para melhor acessibilidade e SEO.
 - **CSS Personalizado**: Estilo personalizado criado com CSS puro, explorando técnicas de estilização avançadas.
-- **Bootstrap**: Utilização de componentes e estilos do Bootstrap para facilitar o desenvolvimento do carousel de projetos.
+- **Bootstrap**: Utilização de componentes do Bootstrap para o desenvolvimento do carousel.
 - **Responsividade**: Adaptação do layout para dispositivos móveis e desktops, garantindo uma experiência consistente em todas as telas.
