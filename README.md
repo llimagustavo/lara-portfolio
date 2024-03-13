@@ -9,4 +9,9 @@ O projeto consiste em uma página web que exibe informações sobre os projetos 
 - **Responsividade**: Adaptação do layout para dispositivos móveis e desktops, garantindo uma experiência consistente em todas as telas.
   
 
-Este projeto está em desenvolvimento ativo e ainda não está completo. Algumas funcionalidades podem não estar implementadas e o design pode ser refinado.
+
+--- <b> Este projeto está em desenvolvimento ativo e ainda não está completo. Algumas funcionalidades podem não estar implementadas e o design pode ser refinado. </b> ---
+
+
+![01](https://github.com/llimagustavo/lara_portfolio_web/assets/90816079/d0354cf6-0eb4-4bd1-a176-3cc30aede264)
+![02](https://github.com/llimagustavo/lara_portfolio_web/assets/90816079/5699ff77-f811-4cca-939d-0f3a7f4f0cb3)
