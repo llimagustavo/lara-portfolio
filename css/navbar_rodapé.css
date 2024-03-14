@@ -1,0 +1,56 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color: transparent;
+    margin-bottom: 20px;
+}
+
+.buttonbar {
+    background-color: transparent;
+    color: var(--cor-amarela);
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    width: 280px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.buttonbar:hover {
+    border-bottom: 1px solid var(--cor-branca); 
+    border-top: 1px solid var(--cor-branca)
+}
+
+/* ---------------------------------------------RODAPÉ------------------------------*/
+
+.icones {
+    color: var(--cor-branca);
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.fa-brands.fa-linkedin-in.fa-3x {
+    margin-left: 28px;
+    margin-right: 28px;
+    margin-bottom: 80px;
+}
+
+.fa-brands.fa-instagram.fa-3x:hover, .fa-brands.fa-linkedin-in.fa-3x:hover, 
+.fa-brands.fa-tiktok.fa-3x:hover {
+    scale: 1.1;
+    cursor: pointer;
+    color: #f7d53e;
+}
+
+.fa-brands.fa-linkedin-in.fa-3x:hover {
+    color: #0e76a8;
+}
+
+.fa-brands.fa-tiktok.fa-3x:hover {
+    color: #000000;
+}

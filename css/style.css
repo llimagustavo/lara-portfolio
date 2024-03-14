@@ -121,6 +121,9 @@ main {
         margin-top: 80px;
         flex-direction: column;
     }
+    main {
+        margin: 0 auto;
+    }
 }
 
 .perfil {

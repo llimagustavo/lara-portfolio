@@ -2,29 +2,26 @@
     font-family: 'Lemon Days';
     color: var(--cor-branca);
     font-size: 66px;
-    margin-top: 100px;
-    margin-right: 150px;
+    margin: 100px 150px 60px -150px;
     display: flex;
     justify-content: center;
-    margin-left: -150px;
-    margin-bottom: 60px;
+}
+
+#conteudo {
+    flex-direction: row;
 }
 
 #img-1, #img-2 {
     border-radius: 50%;
-    width: 250px;
+    max-width: 250px;
     height: 250px;
     object-fit: cover;
 }
 
-.demo {
+.demonstracao {
     display: flex;
     flex-direction: column;
-}
-
-#separador {
-    display: flex;
-    flex-direction: row;
+    max-width: 250px;
 }
 
 #instrucao {
@@ -39,31 +36,32 @@
     margin-left: 50px;
 }
 
-#c-nome-social, #c-sobrenome, #c-email {
-    border: none;
-    border-radius: 5px;
-    height: 35px;
-}
-
-#campo-descricao {
-    border: none;
-    border-radius: 5px;
-    height: 100px;
-    margin-bottom: 20px;
-}
-
-.form-grupo-row {
-    margin-bottom: 20px;
-    display: flex;
-    flex-direction: row;
-}
-
 label {
     margin: 10px;
 }
 
-.tipos {
+.tipo-input {
     color: #FDC61F;
+    margin-bottom: 5px;
+}
+
+#c-nome-social, #c-sobrenome, #c-email {
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    width: 188px;
+}
+
+#c-email {
+    width: 400px;   
+}
+
+#campo-interesse {
+    border: none;
+    border-radius: 5px;
+    height: 100px;
+    width: 400px;
+    margin-bottom: 20px;
 }
 
 #botao-enviar {
@@ -77,4 +75,20 @@ label {
     font-family: 'DM Sans', sans-serif;
     font-weight: bold;
     margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+    #fale-comigo {
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    #conteudo {
+        margin: 0 auto;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #c-email, #campo-interesse {
+        width: 300px;
+    }
+    
 }
