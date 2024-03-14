@@ -1,6 +1,6 @@
 ## Portfolio de Lara Hounsell
 Este é um projeto de portfolio simples desenvolvido com HTML, CSS e Bootstrap. O objetivo deste projeto é servir como uma ferramenta de treinamento e estudo para praticar e aprimorar minhas habilidades com o desenvolvimento front-end.
-O projeto consiste em uma página web que exibe informações sobre os projetos feitos, nome, breve descrição, habilidades e informações de contato.
+O projeto consiste em uma página web que exibe informações sobre os projetos feitos, breve descrição, habilidades, um pouco sobre a pessoa e informações de contato.
 ## Recursos
 
 - **HTML Semântico**: Utilização de tags semânticas HTML para melhor acessibilidade e SEO.
