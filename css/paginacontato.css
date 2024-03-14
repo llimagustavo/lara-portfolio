@@ -1,0 +1,80 @@
+#fale-comigo {
+    font-family: 'Lemon Days';
+    color: var(--cor-branca);
+    font-size: 66px;
+    margin-top: 100px;
+    margin-right: 150px;
+    display: flex;
+    justify-content: center;
+    margin-left: -150px;
+    margin-bottom: 60px;
+}
+
+#img-1, #img-2 {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.demo {
+    display: flex;
+    flex-direction: column;
+}
+
+#separador {
+    display: flex;
+    flex-direction: row;
+}
+
+#instrucao {
+    font-size: 20px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+#c-nome-social, #c-sobrenome, #c-email {
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+}
+
+#campo-descricao {
+    border: none;
+    border-radius: 5px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.form-grupo-row {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+label {
+    margin: 10px;
+}
+
+.tipos {
+    color: #FDC61F;
+}
+
+#botao-enviar {
+    background-color: #FDC61F;
+    color: black;
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    font-size: 18px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+}

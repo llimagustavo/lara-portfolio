@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/rodapé.css">
@@ -20,15 +21,11 @@
                 Projetos
             </button>
         </a>
-    
-        <a href="sobre.html" style="
-        border-bottom: 1px solid var(--cor-branca); 
-        border-top: 1px solid var(--cor-branca);">
+        <a href="sobre.html" style="border-bottom: 1px solid var(--cor-branca); border-top: 1px solid var(--cor-branca);">
             <button class="buttonbar">
                 Sobre
             </button>
         </a>
-
         <a href="contato.html">
             <button class="buttonbar">
                 Contato
@@ -37,50 +34,58 @@
     </nav>
 
     <main> 
-        <aside id="coluna-esquerda">
-            <img class="perfil" 
-            src="/assets/images/lara.png" 
-            alt="Foto">
-        </aside>
-    
 
         <div>
             <h3 class="titulo-pagina-sobre">QUEM SOU EU?</h3>
-            <div class="container">
-                <p class="texto-sobre-lara">Meu nome é Lara, tenho 20 anos e sou uma paraense apaixonada por <b>design gráfico</b>. 
-                    Meu interesse começou fazendo capas de livro amadoras aos 16 anos e só cresce até hoje. 
-                    Eu frequento a Universidade do Estado do Pará (<b>UEPA</b>) e estou no sexto semestre do curso de <b>Bacharelado em Design</b>. Sempre procurando <b>aprender</b> e com um <b>zelo</b> imenso pelo trabalho que entrego!</p>
-            </div>
+            <section class="apresentacao">
+                <div>
+                    <img class="perfil" src="/assets/images/lara.png" alt="Foto de Lara">
+                </div>
+                <div class="container-branco"> 
+                    <p id="texto-sobre-lara">Meu nome é Lara, tenho 20 anos e sou uma paraense apaixonada por <b>design gráfico</b>. 
+                        Meu interesse começou fazendo capas de livro amadoras aos 16 anos e só cresce até hoje. 
+                        Eu frequento a Universidade do Estado do Pará (<b>UEPA</b>) e estou no sexto semestre do curso de <b>Bacharelado em Design</b>. 
+                        Sempre procurando <b>aprender</b> e com um <b>zelo</b> imenso pelo trabalho que entrego!</p>
+                </div>
+            </section>
+            
+            <h3 id="habilidade">HABILIDADES</h3>
 
-            <h3 class="titulo-pagina-sobre">HABILIDADES</h3>
+            <section id="section2">
+                <div class="container-habilidade">
+                    <img src="/assets/images/estrela.png" class="estrela" alt="">
+                    <p id="topicos"><b>Photoshop</b> - Manipulação de imagens, criação de peças gráficas e edições simples.</p> 
+                    
+                </div>
+    
+                <div class="container-habilidade">
+                    <img src="/assets/images/estrela.png" class="estrela" alt="">
+                    <p id="topicos"><b>Illustrator</b> - Criação de identidade visual, vetorização, iconografia e logotipos.</p> 
+                </div>
+    
+                <div class="container-habilidade">
+                    <img src="/assets/images/estrela.png" class="estrela" alt="">
+                    <p id="topicos"><b>Canva</b> - Criação de peças gráficas.</p> 
+                </div>   
+    
+                    <div class="container-habilidade">
+                    <img src="/assets/images/estrela.png" class="estrela" alt="">
+                    <p id="topicos"><b>Edição simples de vídeos.</b></p> 
+                </div>
 
-            <div class="container-hab">
-                <img src="/assets/images/estrela.png" class="estrela" alt="">
-                <p id="topicos"><b>Photoshop</b> - Manipulação de imagens, criação de peças gráficas e edições simples.</p> 
-                
-            </div>
+                <h3 id="interesse">INTERESSES</h3>
+                <p id="topicos"><b>Trabalhos <i>freelancer.</i></b></p>
+            </section>
+            
 
-            <div class="container-hab">
-                <img src="/assets/images/estrela.png" class="estrela" alt="">
-                <p id="topicos"><b>Illustrator</b> - Criação de identidade visual, vetorização, iconografia e logotipos.</p> 
-            </div>
+            
 
-            <div class="container-hab">
-                <img src="/assets/images/estrela.png" class="estrela" alt="">
-                <p id="topicos"><b>Canva</b> - Criação de peças gráficas.</p> 
-            </div>   
-
-                <div class="container-hab">
-                <img src="/assets/images/estrela.png" class="estrela" alt="">
-                <p id="topicos"><b>Edição simples de vídeos.</b></p> 
-            </div>
-
-            <h3 class="titulo-pagina-sobre">INTERESSES</h3>
-            <p id="topicos"><b>Trabalhos <i>freelancer.</i></b></p>
+            
 
         </div>
+
+        
     </main>
-    
     <footer class="icones">
         <a href="https://www.instagram.com/larafazdesign?igsh=NTc4MTIwNjQ2YQ==" 
         title="Ir para meu instagram" style="color: white;">
@@ -97,6 +102,7 @@
             <i class="fa-brands fa-tiktok fa-3x"></i>
         </a>
     </footer>
+    
 
 </body>
 </html>

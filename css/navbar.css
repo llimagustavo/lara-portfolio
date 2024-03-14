@@ -4,6 +4,7 @@
     flex-direction: row;
     align-items: center;
     background-color: transparent;
+    margin-bottom: 20px;
 }
 
 .buttonbar {
@@ -16,8 +17,10 @@
     border: none;
     cursor: pointer;
     margin-right: 5px;
+    margin-left: 5px;
 }
 
 .buttonbar:hover {
-    color: var(--cor-branca);
+    border-bottom: 1px solid var(--cor-branca); 
+    border-top: 1px solid var(--cor-branca)
 }
