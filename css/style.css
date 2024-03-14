@@ -94,6 +94,9 @@ h3 {
     background: linear-gradient(to bottom, #000000, #2b1528);
     border-radius: 10px;
     cursor: pointer;
+    position: relative;
+        bottom: 80px;
+        left: 0;
 }
 
 .carousel-inner {
@@ -123,6 +126,15 @@ main {
     }
     main {
         margin: 0 auto;
+    }
+    body {
+        background-color: #2b1528;
+        background-image: none;
+    }
+    .carousel-caption {
+        position: relative;
+        bottom: 0px;
+        left: 0;
     }
 }
 
