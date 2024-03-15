@@ -1,0 +1,42 @@
+section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+.h2-titulo {
+    font-family: 'Lemon Days';
+    color: var(--cor-branca);
+    font-size: 28px;
+}
+
+#divisao-esquerda {
+    margin-left: 150px;
+    max-width: 180px;
+}
+
+#div-principal {
+    margin: 0 auto;
+    max-width: 555px;
+    text-align: justify;
+}
+
+#divisao-direita {
+    margin-right: 180px;
+    max-width: 200px;
+}
+
+#sobre-o-projeto {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    color: var(--cor-branca);
+    margin-top: 15px;
+    line-height: 1.2;
+}
+
+.texto-inferior {
+    font-family: 'DM Sans';
+    font-size: 17px;
+    color: var(--cor-branca);
+    margin-bottom: 30px;
+}
