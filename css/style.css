@@ -92,7 +92,8 @@ h3 {
 
 .carousel-caption {
     background: linear-gradient(to bottom, #000000, #2b1528);
-    border-radius: 10px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
     cursor: pointer;
     position: relative;
         bottom: 80px;
@@ -100,6 +101,6 @@ h3 {
 }
 
 .carousel-inner {
-    border-radius: 10px;
+    border-radius: 30px;
     min-height: 700px;
 }
