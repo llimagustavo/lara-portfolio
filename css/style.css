@@ -1,7 +1,7 @@
 :root {
     --cor-rosa: #AD49A3;
     --cor-rosa-escuro: #84377C;
-    --cor-amarela: #FDC61F;
+    --cor-amarela: #FFC700;
     --cor-branca: #FFFFFF;
 }
 
@@ -49,9 +49,7 @@ h1 {
 
 }
 
-
-                            /* Design Gráfico */
-h3 {                                            
+h3 {                        /* Design Gráfico */                    
     margin-top: 6px;
     margin-bottom: 20px;
     font-family: 'DM Sans', sans-serif; 
@@ -87,7 +85,7 @@ h3 {
 }
 
 #indicadores .active {
-    background-color: #FFC700;
+    background-color: var(--cor-amarela);
 }
 
 .carousel-caption {
@@ -96,8 +94,8 @@ h3 {
     border-bottom-left-radius: 30px;
     cursor: pointer;
     position: relative;
-        bottom: 80px;
-        left: 0;
+    bottom: 80px;
+    left: 0;
 }
 
 .carousel-inner {
