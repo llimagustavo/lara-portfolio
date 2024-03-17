@@ -1,17 +1,18 @@
-section {
+#textos {
     display: flex;
-    flex-direction: row;
     margin-top: 100px;
 }
 
 .h2-titulo {
     font-family: 'Lemon Days';
     color: var(--cor-branca);
-    font-size: 28px;
+    /* font-size: 28px; */
+    font-size: 1.75rem;
 }
 
 #divisao-esquerda {
     margin-left: 150px;
+    margin-right: 50px;
     max-width: 180px;
 }
 
@@ -23,20 +24,86 @@ section {
 
 #divisao-direita {
     margin-right: 180px;
+    margin-left: 50px;
     max-width: 200px;
 }
 
 #sobre-o-projeto {
     font-family: 'DM Sans', sans-serif;
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 1.20rem;
     color: var(--cor-branca);
     margin-top: 15px;
-    line-height: 1.2;
+    line-height: 1.3;
 }
 
 .texto-inferior {
-    font-family: 'DM Sans';
-    font-size: 17px;
+    font-family: 'DM Sans', sans-serif;
+    /* font-size: 17px; */
+    font-size: 1.0rem;
     color: var(--cor-branca);
     margin-bottom: 30px;
 }
+
+/* ------------------------------------------------- CAROUSEL 2 ---------------------------------------------  */
+
+#banner2 {
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    max-width: 1500px;
+}
+
+.d-block.w-100 {
+    border-radius: 30px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    margin-top: 1300px;
+    width: 100px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(/assets/icons/prev2.png);
+    max-width: 25px;
+    max-height: 45px;
+}
+
+.carousel-control-next-icon {
+    background-image: url(/assets/icons/next2.png);
+    max-width: 25px;
+    max-height: 45px;
+}
+
+#anterior, #proximo {
+    margin-top: 100px;
+    position: absolute;
+    background-color: #FFC700;
+    width: 46px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#anterior {
+    background-image: url(/assets/icons/backward.svg);
+    left: 100px;
+}
+
+#proximo {
+    background-image: url(/assets/icons/forward.svg);
+    right: 100px;
+}
+
+
+
+
+@media (max-width: 768px) {
+    #textos {
+        flex-direction: column;
+    }
+    #divisao-esquerda, #divisao-direita, #div-principal {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+

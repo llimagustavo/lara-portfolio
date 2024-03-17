@@ -80,6 +80,7 @@ label {
 @media (max-width: 768px) {
     #fale-comigo {
         margin: 0 auto;
+        margin: 10px;
         margin-bottom: 10px;
     }
     #conteudo {

@@ -42,19 +42,18 @@ h1 {
     
 }
 
-.carousel.slide {
-    max-width: 1000px;
-    max-height: 800px;
-    object-fit: cover;
-
-}
-
 h3 {                        /* Design Gráfico */                    
     margin-top: 6px;
     margin-bottom: 20px;
     font-family: 'DM Sans', sans-serif; 
     font-size: 18px;
     color: var(--cor-branca);
+}
+
+.carousel.slide {
+    max-width: 1000px;
+    max-height: 800px;
+    object-fit: cover;
 }
 
 #titulo-do-projeto {
