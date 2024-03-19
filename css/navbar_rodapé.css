@@ -10,7 +10,7 @@
 .buttonbar {
     background-color: transparent;
     color: var(--cor-amarela);
-    font-family: sans-serif, 'Times New Roman', Times, serif;
+    font-family: 'DM Sans', sans-serif;
     font-size: 18px;
     width: 280px;
     height: 40px;
