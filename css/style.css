@@ -24,7 +24,7 @@ body {
     flex-direction: column;
     background-image: url(/assets/images/fundo.png);
     background-attachment: fixed;
-    background-size: 100% 100%;
+    background-size: cover;
 }
 
 h1 {
@@ -113,4 +113,11 @@ h3 {                        /* Design Gráfico */
 .carousel-inner {
     border-radius: 20px;
     min-height: 700px;
+}
+
+@media (max-width: 768px) {
+    header {
+        margin-left: 30px;
+        margin-right: 40px;
+    }
 }
