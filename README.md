@@ -9,3 +9,4 @@ Este é um projeto de portfolio simples desenvolvido com HTML, CSS e Bootstrap. 
 - **Bootstrap**: Utilização de componentes do Bootstrap para o desenvolvimento do carousel.
 - **Responsividade**: Adaptação do layout para dispositivos móveis e desktops, garantindo uma experiência consistente em todas as telas.
 
+Disponível em: [https://larahounsell.netlify.app/](https://larahounsell.netlify.app/)
