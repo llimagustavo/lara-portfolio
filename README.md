@@ -8,8 +8,4 @@ Este é um projeto de portfolio simples desenvolvido com HTML, CSS e Bootstrap. 
 - **CSS**: Estilo personalizado criado com CSS puro, explorando técnicas de estilização avançadas.
 - **Bootstrap**: Utilização de componentes do Bootstrap para o desenvolvimento do carousel.
 - **Responsividade**: Adaptação do layout para dispositivos móveis e desktops, garantindo uma experiência consistente em todas as telas.
-  
-
-
---- <b> Este projeto está em desenvolvimento ativo e ainda não está completo. Algumas funcionalidades podem não estar implementadas e o design pode ser refinado. </b> ---
 
