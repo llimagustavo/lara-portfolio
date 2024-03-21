@@ -30,7 +30,7 @@ body {
 h1 {
     display: flex;
     justify-content: center;
-    font-family: 'Lemon Days';
+    font-family: 'Lemon Days', sans-serif;
     /* font-size: 111px; */
     font-size: clamp(3em, 1rem + 10vw, 7rem); 
     color: var(--cor-amarela);
@@ -38,7 +38,7 @@ h1 {
 }
 
 .titulo-branco {
-    font-family: 'Lemon Days';
+    font-family: 'Lemon Days', sans-serif;
     color: var(--cor-branca);
     font-size: 40px;
     margin-bottom: -6px;
@@ -52,7 +52,6 @@ h1 {
     align-items: flex-start;
     margin: 0 auto;
     padding: 10px;
-    
 }
 
 h3 {         
@@ -74,7 +73,6 @@ h3 {
     font-size: 26px;
     font-size: clamp(0,1rem, 2rem, 3rem);
     color: var(--cor-branca);
-    
 }
 
 #descricao {

@@ -4,7 +4,7 @@
 }
 
 .h2-titulo {
-    font-family: 'Lemon Days';
+    font-family: 'Lemon Days', 'DM Sans', sans-serif;
     color: var(--cor-branca);
     /* font-size: 28px; */
     font-size: 1.75rem;

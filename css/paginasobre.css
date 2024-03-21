@@ -24,7 +24,7 @@ main {
 }
 
 .titulo-pagina-sobre {
-    font-family: 'Lemon Days';
+    font-family: 'Lemon Days', 'DM Sans';
     color: var(--cor-branca);
     font-size: 66px;
     margin-bottom: -6px;
@@ -46,7 +46,7 @@ main {
 }
 
 #texto-sobre-lara {
-    font-family: 'DM Sans Regular', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     line-height: 1.2;
     font-size: 20px;
     padding: 20px 40px;
@@ -56,7 +56,7 @@ main {
 }
 
 #habilidade {
-    font-family: 'Lemon Days';
+    font-family: 'Lemon Days','DM Sans';
     color: var(--cor-branca);
     font-size: 66px;
     margin: 100px 240px 10px 0;
@@ -88,12 +88,12 @@ main {
 
 #topicos {
     color: var(--cor-branca);
-    font-family: 'DM Sans Regular', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-size: 25px;
 }
 
 #interesse {
-    font-family: 'Lemon Days';
+    font-family: 'Lemon Days', 'DM Sans';
     color: var(--cor-branca);
     font-size: 66px;
     margin: 100px 260px 10px 0;
