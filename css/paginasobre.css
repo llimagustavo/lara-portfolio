@@ -1,7 +1,4 @@
 main {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     margin: 0 auto;
 }
 
@@ -14,34 +11,23 @@ main {
 .perfil {
     border-radius: 50%;
     box-shadow: 1px 1px 30px;
-    max-height: 300px;
     max-width: 300px;
-    object-fit: cover;
-    margin-top: -70px;
-    margin-right: 20px;
-    min-width: 40px;
-    min-height: 40px;
+    margin: -70px 20px 0;
 }
 
 .titulo-pagina-sobre {
     font-family: 'Lemon Days', 'DM Sans';
-    color: var(--cor-branca);
     font-size: 66px;
-    margin-bottom: -6px;
-    margin-top: 100px;
     display: flex;
     justify-content: flex-end;
-    margin-right: 150px;
+    margin: 100px 150px -6px 0;
 }
 
 .container-branco {
-    display: flex;
-    justify-content: center;
     align-items: center;
     background-color: var(--cor-branca);
     border-radius: 30px;
     max-width: 620px;
-    max-height: 200px;
     margin-top: 20px;
 }
 
@@ -74,17 +60,14 @@ main {
 
 .estrela {
     max-width: 30px;
-    margin-right: 10px;
-    margin-bottom: 20px;
+    margin: 0 10px 20px 0;
 }
 
 .container-habilidade {
-    /* max-width: 600px; */
     display: flex;
     justify-content: flex-start;  
     align-items: center;
 }
-
 
 #topicos {
     color: var(--cor-branca);
@@ -108,15 +91,6 @@ main {
     main {
         margin: 0 auto;
     }
-    body {
-        background-color: #2b1528;   /* usar esse cor depois para o modo escuro */
-        background-image: none;
-    }
-    .carousel-caption {
-        position: relative;
-        bottom: 0px;
-        left: 0;
-    }
     #section2 {
         margin: 0 auto;
     }
@@ -132,3 +106,5 @@ main {
         max-height: 350px;
     }
 }
+
+/* background-color: #2b1528; usar esse cor depois para o modo escuro */
