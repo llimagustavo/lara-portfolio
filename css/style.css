@@ -14,8 +14,7 @@ header {
 #estrela-esquerda, #estrela-direita {
     width: 65px;
     height: 65px;
-    margin-left: -40px;
-    margin-right: -30px;
+    margin: 0 -30px 0 -40px;
 }
 
 body {
@@ -28,9 +27,7 @@ body {
 }
 
 h1 {
-    display: flex;
-    justify-content: center;
-    font-family: 'Lemon Days', sans-serif;
+    font-family: 'Lemon Days', 'DM Sans', sans-serif;
     /* font-size: 111px; */
     font-size: clamp(3em, 1rem + 10vw, 7rem); 
     color: var(--cor-amarela);
@@ -38,7 +35,7 @@ h1 {
 }
 
 .titulo-branco {
-    font-family: 'Lemon Days', sans-serif;
+    font-family: 'Lemon Days', 'DM Sans', sans-serif;
     color: var(--cor-branca);
     font-size: 40px;
     margin-bottom: -6px;
@@ -69,20 +66,20 @@ h3 {
 }
 
 #titulo-do-projeto {
-    font-family: 'DM Sans';
+    font-family: 'DM Sans', sans-serif;
     font-size: 26px;
     font-size: clamp(0,1rem, 2rem, 3rem);
     color: var(--cor-branca);
 }
 
 #descricao {
-    font-family: 'DM Sans';
+    font-family: 'DM Sans', sans-serif;
     /* font-size: 17px; */
     font-size: clamp(0,1rem, 1rem, 3rem);
     color: var(--cor-branca);
 }
 
-.carousel-control-prev-icon {
+.carousel-control-prev-icon, .carousel-control-next-icon {
     background-image: url(/assets/icons/prev.png);
     max-width: 25px;
     max-height: 45px;
@@ -90,8 +87,6 @@ h3 {
 
 .carousel-control-next-icon {
     background-image: url(/assets/icons/next.png);
-    max-width: 25px;
-    max-height: 45px;
 }
 
 #indicadores .active {
@@ -110,7 +105,6 @@ h3 {
 
 .carousel-inner {
     border-radius: 20px;
-    min-height: 700px;
 }
 
 @media (max-width: 768px) {

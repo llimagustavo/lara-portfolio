@@ -1,9 +1,7 @@
 .navbar {
     display: flex;
     justify-content: center;
-    flex-direction: row;
     align-items: center;
-    background-color: transparent;
     margin-bottom: 20px;
 }
 
