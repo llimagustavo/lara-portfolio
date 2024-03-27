@@ -9,9 +9,11 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
-#estrela-esquerda, #estrela-direita {
+header > img {
     width: 65px;
     height: 65px;
     margin: 0 -30px 0 -40px;
@@ -62,7 +64,7 @@ h3 {
 .carousel.slide {
     max-width: 1000px;
     max-height: 800px;
-    object-fit: cover;
+    object-fit: fill;
 }
 
 #titulo-do-projeto {
@@ -70,6 +72,16 @@ h3 {
     font-size: 26px;
     font-size: clamp(0,1rem, 2rem, 3rem);
     color: var(--cor-branca);
+}
+
+.carousel-caption {
+    background: linear-gradient(to bottom, #000000, #2b1528);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    bottom: 80px;
+    left: 0;
 }
 
 #descricao {
@@ -93,23 +105,12 @@ h3 {
     background-color: var(--cor-amarela);
 }
 
-.carousel-caption {
-    background: linear-gradient(to bottom, #000000, #2b1528);
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    cursor: pointer;
-    position: relative;
-    bottom: 80px;
-    left: 0;
-}
-
 .carousel-inner {
-    border-radius: 20px;
+    border-radius: 10px;
+    height: 800px;
+    object-fit: fill;
 }
 
-@media (max-width: 768px) {
-    header {
-        margin-left: 50px;
-        margin-right: 50px;
-    }
+.d-block.w-100 {
+    object-fit: cover;
 }
