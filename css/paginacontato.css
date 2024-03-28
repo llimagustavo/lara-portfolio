@@ -22,7 +22,7 @@
 .demonstracao {
     display: flex;
     flex-direction: column;
-    max-width: 250px;
+    margin-right: 50px;
 }
 
 #instrucao {
@@ -34,7 +34,6 @@
 .formulario {
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
 }
 
 label {
@@ -66,12 +65,12 @@ label {
 }
 
 #botao-enviar {
+    border: none;
+    border-radius: 50px;
     background-color: #FDC61F;
     color: black;
     width: 100px;
     height: 40px;
-    border-radius: 50px;
-    border: none;
     font-size: 18px;
     font-family: 'DM Sans', sans-serif;
     font-weight: bold;
@@ -80,14 +79,12 @@ label {
 
 @media (max-width: 768px) {
     #fale-comigo {
-        margin: 0 auto;
-        margin: 10px;
-        margin-bottom: 10px;
+        margin: 50px 10px 10px 10px;
     }
     #conteudo {
-        margin: 0 auto;
+        margin: 10px;
         flex-direction: column;
-        justify-content: center;
+        
     }
     #c-email, #campo-interesse {
         max-width: 300px;
