@@ -45,9 +45,9 @@ main {
     font-family: 'Lemon Days','DM Sans';
     color: var(--cor-branca);
     font-size: 66px;
-    margin: 100px 240px 10px 0;
+    margin: 100px 0px 10px 100px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 #section2 {
@@ -76,11 +76,14 @@ main {
 }
 
 #interesse {
+    margin-left: 20px;
+}
+
+#interesse > h3 {
     font-family: 'Lemon Days', 'DM Sans';
-    color: var(--cor-branca);
     font-size: 66px;
-    margin: 100px 260px 10px 0;
-    /* justify-content: flex-end; */
+    color: var(--cor-branca);
+    margin-top: 100px;
 }
 
 @media (max-width: 768px) {
@@ -90,6 +93,10 @@ main {
     }
     main {
         margin: 0 auto;
+        margin: 10px;
+    }
+    #habilidade {
+        margin: 100px 0px 10px 0px;
     }
     #section2 {
         margin: 0 auto;
@@ -101,6 +108,9 @@ main {
     .container-habilidade {
         max-width: 400px;
         max-height: 350px;
+    }
+    #interesse {
+        margin: 0;
     }
 }
 
