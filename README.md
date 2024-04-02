@@ -1,5 +1,5 @@
 ## Portfolio de Lara Hounsell
-Este é um projeto de portfolio simples desenvolvido com HTML, CSS e Bootstrap. O projeto consiste em uma página web que exibe informações sobre os projetos feitos da pessoa, breve descrição, habilidades, um pouco sobre a pessoa e informações de contato.
+Este é um projeto de portfolio simples desenvolvido com HTML, CSS e Bootstrap. O projeto consiste em uma página web que exibe informações sobre os projetos feitos pela pessoa, breve descrição, habilidades, um pouco sobre a pessoa e informações de contato.
 
 
 ## Recursos
